@@ -17,10 +17,7 @@ import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 
 public class RedstoneResistorRenderer extends SplitShaftRenderer
 {
-    public RedstoneResistorRenderer(BlockEntityRendererProvider.Context context)
-    {
-        super(context);
-    }
+    public RedstoneResistorRenderer(BlockEntityRendererProvider.Context context) { super(context); }
 
     @Override
     protected void renderSafe(SplitShaftBlockEntity be, float partialTicks, PoseStack ms, MultiBufferSource buffer, int light, int overlay)
