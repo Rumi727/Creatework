@@ -1,0 +1,36 @@
+{
+  "item_group.creatework.main": "Creatework",
+
+  "block.creatework.redstone_resistor": "레드스톤 저항기",
+  "item.creatework.redstone_resistor": "레드스톤 저항기",
+
+  "creatework.contraptions.resistor.resist_direction": "저항기 저항 방향",
+  "creatework.contraptions.resistor.resist_direction.normal": "일반",
+  "creatework.contraptions.resistor.resist_direction.reversal": "반전",
+
+  "creatework.contraptions.resistor.info_header": "저항기 정보:",
+  "creatework.contraptions.resistor.analog_signal.title": "레드스톤 신호",
+  "creatework.contraptions.resistor.modifier.title": "회전 속도",
+  "creatework.contraptions.resistor.modifier.value": "%1$sx",
+  "creatework.contraptions.resistor.modifier.max_value": "%1$sx",
+
+  "creatework.ponder.resistor.header": "레드스톤 저항기를 통해 회전 속도 조절하기",
+  "creatework.ponder.resistor.text_1": "레드스톤 저항기는 한 줄로 동력을 전달합니다.",
+  "creatework.ponder.resistor.text_2": "레드스톤 신호를 받으면, 회전 속도가 감소합니다.",
+  "creatework.ponder.resistor.text_3": "30 RPM",
+  "creatework.ponder.resistor.text_4": "28 RPM",
+  "creatework.ponder.resistor.text_5": "26 RPM",
+  "creatework.ponder.resistor.text_6": "24 RPM",
+  "creatework.ponder.resistor.text_7": "22 RPM",
+  "creatework.ponder.resistor.text_8": "20 RPM",
+  "creatework.ponder.resistor.text_9": "18 RPM",
+  "creatework.ponder.resistor.text_10": "14 RPM",
+  "creatework.ponder.resistor.text_11": "12 RPM",
+  "creatework.ponder.resistor.text_12": "10 RPM",
+  "creatework.ponder.resistor.text_13": "8 RPM",
+  "creatework.ponder.resistor.text_14": "6 RPM",
+  "creatework.ponder.resistor.text_15": "4 RPM",
+  "creatework.ponder.resistor.text_16": "2 RPM",
+  "creatework.ponder.resistor.text_17": "0 RPM",
+  "creatework.ponder.resistor.text_18": "[반전] 모드로 설정하여 레드스톤 신호를 반전시킬 수 있습니다."
+}

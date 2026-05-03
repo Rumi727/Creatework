@@ -1,0 +1,36 @@
+{
+  "item_group.creatework.main": "Creatework",
+
+  "block.creatework.redstone_resistor": "Redstone Resistor",
+  "item.creatework.redstone_resistor": "Redstone Resistor",
+
+  "creatework.contraptions.resistor.resist_direction": "Resistor Resist Direction",
+  "creatework.contraptions.resistor.resist_direction.normal": "Normal",
+  "creatework.contraptions.resistor.resist_direction.reversal": "Reversal",
+
+  "creatework.contraptions.resistor.info_header": "저항기 정보:",
+  "creatework.contraptions.resistor.analog_signal.title": "레드스톤 신호",
+  "creatework.contraptions.resistor.modifier.title": "회전 속도",
+  "creatework.contraptions.resistor.modifier.value": "%1$sx",
+  "creatework.contraptions.resistor.modifier.max_value": "%1$sx",
+
+  "creatework.ponder.resistor.header": "Controlling rotational speed with Redstone Resistor",
+  "creatework.ponder.resistor.text_1": "Redstone Resistor will relay rotation in a straight line",
+  "creatework.ponder.resistor.text_2": "When receiving by Redstone, it rotation speed decreases.",
+  "creatework.ponder.resistor.text_3": "30 RPM",
+  "creatework.ponder.resistor.text_4": "28 RPM",
+  "creatework.ponder.resistor.text_5": "26 RPM",
+  "creatework.ponder.resistor.text_6": "24 RPM",
+  "creatework.ponder.resistor.text_7": "22 RPM",
+  "creatework.ponder.resistor.text_8": "20 RPM",
+  "creatework.ponder.resistor.text_9": "18 RPM",
+  "creatework.ponder.resistor.text_10": "14 RPM",
+  "creatework.ponder.resistor.text_11": "12 RPM",
+  "creatework.ponder.resistor.text_12": "10 RPM",
+  "creatework.ponder.resistor.text_13": "8 RPM",
+  "creatework.ponder.resistor.text_14": "6 RPM",
+  "creatework.ponder.resistor.text_15": "4 RPM",
+  "creatework.ponder.resistor.text_16": "2 RPM",
+  "creatework.ponder.resistor.text_17": "0 RPM",
+  "creatework.ponder.resistor.text_18": "You can invert the Redstone signal by setting it to [Reversal] mode."
+}

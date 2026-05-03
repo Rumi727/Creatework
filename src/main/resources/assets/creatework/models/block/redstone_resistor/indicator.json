@@ -1,0 +1,20 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "0": "creatework:block/redstone_resistor_indicator"
+  },
+  "elements": [
+    {
+      "name": "Indicator",
+      "from": [0.5, 7, 0.5],
+      "to": [15.5, 9, 15.5],
+      "shade": false,
+      "faces": {
+        "north": {"uv": [0, 0, 15, 2], "texture": "#0"},
+        "east": {"uv": [0, 0, 15, 2], "texture": "#0"},
+        "south": {"uv": [0, 0, 15, 2], "texture": "#0"},
+        "west": {"uv": [0, 0, 15, 2], "texture": "#0"}
+      }
+    }
+  ]
+}

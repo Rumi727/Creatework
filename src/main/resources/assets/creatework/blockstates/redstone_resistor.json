@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "creatework:block/redstone_resistor/block",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "creatework:block/redstone_resistor/block"
+    },
+    "axis=z": {
+      "model": "creatework:block/redstone_resistor/block",
+      "x": 90,
+      "y": 180
+    }
+  }
+}
