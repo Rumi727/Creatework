@@ -9,7 +9,7 @@ public class CreateworkBlockEntities
 {
     public static final BlockEntityEntry<RedstoneResistorBlockEntity> REDSTONE_RESISTOR = Creatework.REGISTRATE
             .blockEntity("redstone_resistor", RedstoneResistorBlockEntity::new)
-            //.visual(() -> SplitShaftVisual::new)
+            .visual(() -> SplitShaftVisual::new)
             .validBlocks(CreateworkBlocks.REDSTONE_RESISTOR)
             .renderer(() -> RedstoneResistorRenderer::new)
             .register();

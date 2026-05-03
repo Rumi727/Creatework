@@ -26,8 +26,8 @@ public class ExtraIcons extends AllIcons
     int iconY;
 
     public static final ExtraIcons
-        I_RESISTOR = newRow(),
-        I_RESISTOR_REVERSAL = next();
+            I_RESISTOR = newRow(),
+            I_RESISTOR_REVERSAL = next();
 
     public ExtraIcons(int x, int y)
     {
@@ -85,7 +85,8 @@ public class ExtraIcons extends AllIcons
     }
 
     @OnlyIn(Dist.CLIENT)
-    void vertex(VertexConsumer builder, Matrix4f matrix, Vec3 vec, Color rgb, float u, float v, int light) {
+    void vertex(VertexConsumer builder, Matrix4f matrix, Vec3 vec, Color rgb, float u, float v, int light)
+    {
         builder.addVertex(matrix, (float) vec.x, (float) vec.y, (float) vec.z)
                 .setColor(rgb.getRed(), rgb.getGreen(), rgb.getBlue(), 255)
                 .setUv(u, v)

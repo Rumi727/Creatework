@@ -2,7 +2,6 @@ package kr.kro.teamdodoco.creatework.ponders.kinetics;
 
 import com.simibubi.create.content.redstone.analogLever.AnalogLeverBlockEntity;
 import com.simibubi.create.foundation.ponder.CreateSceneBuilder;
-import com.simibubi.create.infrastructure.ponder.scenes.KineticsScenes;
 import kr.kro.teamdodoco.creatework.CreateworkConstants;
 import kr.kro.teamdodoco.creatework.blocks.RedstoneResistorBlockEntity;
 import kr.kro.teamdodoco.creatework.gui.ExtraIcons;
@@ -37,7 +36,8 @@ public class RedstoneResistorPonder
         scene.world().showSection(util.select().position(5, 1, 2), Direction.DOWN);
         scene.idle(10);
 
-        for (int i = 4; i >= 1; i--) {
+        for (int i = 4; i >= 1; i--)
+        {
             scene.idle(5);
             scene.world().showSection(util.select().position(i, 1, 2), Direction.DOWN);
         }

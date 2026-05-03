@@ -23,9 +23,9 @@ public class Creatework
     public static final CreateRegistrate REGISTRATE = CreateRegistrate.create(ID)
             .defaultCreativeTab(AllCreativeModeTabs.BASE_CREATIVE_TAB.getKey())
             .setTooltipModifierFactory(item ->
-            new ItemDescription.Modifier(item, FontHelper.Palette.STANDARD_CREATE)
-                    .andThen(TooltipModifier.mapNull(KineticStats.create(item)))
-    );
+                    new ItemDescription.Modifier(item, FontHelper.Palette.STANDARD_CREATE)
+                            .andThen(TooltipModifier.mapNull(KineticStats.create(item)))
+            );
 
     public Creatework(IEventBus modEventBus, @SuppressWarnings("unused") ModContainer modContainer)
     {
